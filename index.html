@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-box">AD</div>
+            <span>AdminDesk</span>
+        </div>
+
+        <nav>
+            <a href="#" class="active">⌂ <span>Dashboard</span></a>
+            <a href="#">♙ <span>Employees</span></a>
+            <a href="#">▣ <span>Departments</span></a>
+            <a href="#">◷ <span>Attendance</span></a>
+            <a href="#">₹ <span>Payroll</span></a>
+            <a href="#">★ <span>Performance</span></a>
+            <a href="#">✉ <span>Messages</span></a>
+            <a href="#">⚙ <span>Settings</span></a>
+        </nav>
+
+        <div class="side-bottom">
+            <p>Need help?</p>
+            <button>Contact Support</button>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div>
+                <p class="small-title">OVERVIEW</p>
+                <h1>Employee Dashboard</h1>
+                <p class="welcome">Good morning, Admin. Here's today's summary.</p>
+            </div>
+
+            <div class="admin-profile">
+                <div class="notification">♧</div>
+
+                <div class="admin-photo">
+                    A
+                </div>
+
+                <div>
+                    <strong>Administrator</strong>
+                    <small>HR Manager</small>
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- STATISTICS -->
+        <section class="stats">
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Total Employees</span>
+                    <div class="stat-icon yellow">♙</div>
+                </div>
+
+                <h2>08</h2>
+                <p class="positive">↑ 2 new this month</p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Monthly Payroll</span>
+                    <div class="stat-icon purple">₹</div>
+                </div>
+
+                <h2>₹4.58L</h2>
+                <p class="positive">↑ 6.4% from last month</p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Attendance</span>
+                    <div class="stat-icon blue">◷</div>
+                </div>
+
+                <h2>94.6%</h2>
+                <p class="positive">↑ 1.8% this week</p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Open Tasks</span>
+                    <div class="stat-icon red">✓</div>
+                </div>
+
+                <h2>27</h2>
+                <p class="warning">9 due today</p>
+            </div>
+
+        </section>
+
+
+        <!-- MIDDLE SECTION -->
+        <section class="middle-grid">
+
+            <!-- SALARY CHART -->
+            <div class="box salary-box">
+
+                <div class="box-heading">
+                    <div>
+                        <h2>Salary Distribution</h2>
+                        <p>Current monthly salary by employee</p>
+                    </div>
+
+                    <span class="year">2026 ▾</span>
+                </div>
+
+
+                <div class="salary-list">
+
+                    <div class="salary-row">
+                        <span>El</span>
+                        <div class="progress">
+                            <div style="width: 85%;"></div>
+                        </div>
+                        <strong>₹68,500</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Mike</span>
+                        <div class="progress">
+                            <div style="width: 67%;"></div>
+                        </div>
+                        <strong>₹54,200</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Dusty</span>
+                        <div class="progress">
+                            <div style="width: 59%;"></div>
+                        </div>
+                        <strong>₹47,800</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Luke</span>
+                        <div class="progress">
+                            <div style="width: 63%;"></div>
+                        </div>
+                        <strong>₹51,600</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Will</span>
+                        <div class="progress">
+                            <div style="width: 54%;"></div>
+                        </div>
+                        <strong>₹43,900</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Max</span>
+                        <div class="progress">
+                            <div style="width: 72%;"></div>
+                        </div>
+                        <strong>₹58,300</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Steve</span>
+                        <div class="progress">
+                            <div style="width: 90%;"></div>
+                        </div>
+                        <strong>₹72,400</strong>
+                    </div>
+
+                    <div class="salary-row">
+                        <span>Nance</span>
+                        <div class="progress">
+                            <div style="width: 76%;"></div>
+                        </div>
+                        <strong>₹61,750</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ATTENDANCE -->
+            <div class="box attendance-box">
+
+                <div class="box-heading">
+                    <div>
+                        <h2>Attendance</h2>
+                        <p>This month's overview</p>
+                    </div>
+                </div>
+
+                <div class="attendance-circle">
+                    <div>
+                        <strong>94.6%</strong>
+                        <span>Present</span>
+                    </div>
+                </div>
+
+                <div class="attendance-details">
+
+                    <div>
+                        <span class="dot present"></span>
+                        Present
+                        <strong>189</strong>
+                    </div>
+
+                    <div>
+                        <span class="dot absent"></span>
+                        Absent
+                        <strong>11</strong>
+                    </div>
+
+                    <div>
+                        <span class="dot leave"></span>
+                        On Leave
+                        <strong>08</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EMPLOYEE TABLE -->
+        <section class="box employee-box">
+
+            <div class="box-heading employee-heading">
+
+                <div>
+                    <h2>Employee Directory</h2>
+                    <p>Current team information</p>
+                </div>
+
+                <button class="add-btn">+ Add Employee</button>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>EMPLOYEE</th>
+                            <th>ID</th>
+                            <th>DEPARTMENT</th>
+                            <th>SALARY</th>
+                            <th>ATTENDANCE</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar1">E</div>
+                                    <div>
+                                        <strong>El</strong>
+                                        <small>Eleven</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-101</td>
+                            <td>Design</td>
+                            <td>₹68,500</td>
+                            <td>97%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar2">M</div>
+                                    <div>
+                                        <strong>Mike</strong>
+                                        <small>Mike Wheeler</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-102</td>
+                            <td>Marketing</td>
+                            <td>₹54,200</td>
+                            <td>95%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar3">D</div>
+                                    <div>
+                                        <strong>Dusty</strong>
+                                        <small>Dustin Henderson</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-103</td>
+                            <td>Technology</td>
+                            <td>₹47,800</td>
+                            <td>92%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar4">L</div>
+                                    <div>
+                                        <strong>Luke</strong>
+                                        <small>Lucas Sinclair</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-104</td>
+                            <td>Finance</td>
+                            <td>₹51,600</td>
+                            <td>96%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar5">W</div>
+                                    <div>
+                                        <strong>Will</strong>
+                                        <small>Will Byers</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-105</td>
+                            <td>Support</td>
+                            <td>₹43,900</td>
+                            <td>89%</td>
+                            <td><span class="status leave-status">On Leave</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar6">M</div>
+                                    <div>
+                                        <strong>Max</strong>
+                                        <small>Max Mayfield</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-106</td>
+                            <td>Sales</td>
+                            <td>₹58,300</td>
+                            <td>94%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar7">S</div>
+                                    <div>
+                                        <strong>Steve</strong>
+                                        <small>Steve Harrington</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-107</td>
+                            <td>Operations</td>
+                            <td>₹72,400</td>
+                            <td>98%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="person">
+                                    <div class="avatar avatar8">N</div>
+                                    <div>
+                                        <strong>Nance</strong>
+                                        <small>Nancy Wheeler</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>EMP-108</td>
+                            <td>Content</td>
+                            <td>₹61,750</td>
+                            <td>93%</td>
+                            <td><span class="status active-status">Active</span></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2026 AdminDesk • Employee Management Portal</p>
+            <p>Last updated: 30 September 2026</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
